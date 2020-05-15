@@ -1,0 +1,115 @@
+html {
+    background: #8076a3;
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+    width: 75%;
+    height: 90%;
+    margin-bottom: 5vh;
+    font-family: 'Roboto', sans-serif;
+    color: #8076a3;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+}
+
+.personIntro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+}
+
+.info{
+    width: 50%;
+}
+
+
+
+.personInfo{
+    width: 50%
+}
+
+.introImg{
+    width: 40%;
+}
+
+.introImg img{
+    width: 100%;
+}
+
+.personImg{
+    width: 30%
+}
+
+.personImg img{
+    width: 100%;
+}
+
+.noInfo{
+    color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 1.4rem;
+        width: 95%
+    }
+
+    .intro{
+        margin-top: 1vh;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .personIntro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .personInfo{
+        width: 50%;
+    }
+    .info{
+        width: 90%;
+        margin: 3vh 4vw;
+    }
+    .introImg{
+        width: 100%;
+        height: 34vh;
+        display: flex;
+        justify-content: center;
+    }
+    .introImg img{
+        width: 45%;
+    }
+    .introImgEpisode{
+        width: 100%;
+    }
+
+    .introImgEpisode img {
+        width: 100%;
+    }
+
+    .personInfo h3{
+        font-size: 12px;
+    }
+}
+
+
+
+
